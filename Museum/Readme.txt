@@ -1,23 +1,20 @@
-Krzysztof Bański
-304288
-WGGiOŚ
-Informatyka Stosowana, Rok 3
+Dependencies - https://drive.google.com/file/d/1aLCxlwI3wGJgzDTWKWugMzzrrcTsSzOC/view?usp=sharing
+Unpack inside of Museum main directory.
 
-Projekt: Wirtualne Muzeum
+Project: Virtual Museum
 
-Sterowanie:
+Controls:
  W
-ASD - ruch
+ASD - move
 
-myszka - kamera
+mouse - look around
 
-z - przełączenie światłą
-x - przełączenie cieni
-c - przełączenie cieni miękkich
-v - przełączenia aktywnego generowania cieni
-b - przełączenie HDR
-n/m - zmniejszenie/zwiększenie rozjaśnienia HDR
+z - switch lights
+x - switch shadows
+c - switch soft shadows
+v - switch active shadow generation
+b - switch HDR
+n/m - less/more exposure HDR
 
-Shader geometrii okazał się dość sporym problemem, jeśli chodzi o wydajność, przy sporej ilości wierzchołków.
-Na słabszych komputerach, krótko po włączeniu programu, polecam wyłączyć generowanie nowych cieni klawiszem "v".
-Nie ma to żadnego wpływu na geometrię statyczną, stanowiącą większość sceny. 
+Immdediately after booting the aplication and seeing the first rendered frame, press V.
+Number of light sources generating shadows is a bit overkill.
